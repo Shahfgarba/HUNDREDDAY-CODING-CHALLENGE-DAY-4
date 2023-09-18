@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 Coding Challenge - Random Quote Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Day 4 Coding Challenge - Random Quote Generator</h1>
+    </header>
+    <div class="container">
+        <div class="quote-box">
+            <p id="quote-text"></p>
+            <p id="author">Author</p>
+        </div>
+        <button id="new-quote">New Quote</button>
+    </div>
+    <div class="user-quote-form">
+        <h2>Add Your Quote</h2>
+        <form id="quote-form">
+            <label for="user-quote">Your Quote:</label>
+            <textarea id="user-quote" name="user-quote" rows="4" required></textarea>
+            <label for="user-name">Your Name:</label>
+            <input type="text" id="user-name" name="user-name" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="share-button">
+        <button id="share-fb">Share on Facebook</button>
+    </div>
+    <div class="user-quotes">
+        <h2>User-Submitted Quotes</h2>
+        <ul id="user-quotes-list"></ul>
+    </div>
+   <footer class="footer">
+    <p>Developed by <a href="https://www.facebook.com/aminu.jikan" target="_blank">Shahf Garba Sokoto</a></p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
